@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./calculadora.js" defer type="module"></script>
+    <title>Calculadora</title>
+</head>
+<body>
+    <main>
+        <div id="principal">
+            <div id="calculadora">
+                <p id="tela">0</p>
+
+                <form id="teclas">
+                    <div id="operacoes">
+                        <button class="operacoes" value='+'>+</button>
+                        <button class="operacoes" value='-'>-</button>
+                        <button class="operacoes" value='*'>x</button>
+                        <button class="operacoes" value='/'>÷</button>
+                    </div>
+                    
+                    <div id="parte_baixo">
+                        <div id="numeros">
+                            <button value='7'>7</button>
+                            <button value='8'>8</button>
+                            <button value='9'>9</button>
+                            <button value='4'>4</button>
+                            <button value='5'>5</button>
+                            <button value='6'>6</button>
+                            <button value='1'>1</button>
+                            <button value='2'>2</button>
+                            <button value='3'>3</button>
+                            <button value='0' id="zero">0</button>
+                            <button value=','>,</button>
+                            <button id='limpar' value='AC'>AC</button>
+                        </div>
+                        <div id="igual">
+                            <button id="btnIgual" value='='>=</button>
+                        </div>
+                    </div>
+                </form>
+
+                <div id="divHistorico">
+                    <table>
+                        <thead>
+                            <td>Valor 1</td>
+                            <td>Operação</td>
+                            <td>Valor 2</td>
+                            <td>Resultado</td>
+                        </thead>
+                        <tbody id="historico">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

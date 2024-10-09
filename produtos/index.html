@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./styles.css">
+        <script src="produtos.js" defer></script>
+    </head>
+
+    <body>
+        <form name="cadastro">
+            <div>
+                <label for="nome">Nome Produto</label>
+                <input type="text" id="nome" required>
+            </div>
+
+            <div>
+                <label for="descricao">Descricao</label>
+                <input type="text" id="descricao" required>
+            </div>
+            
+            <div>
+                <label for="preco">Preço</label>
+                <input type="text" id="preco" required>
+            </div>
+
+            <button>Salvar</button>
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Descrição</th>
+                    <th>Preço</th>
+                    <th>Excluir</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+
+        <div id="vazio">
+            <p>Nenhum produto cadastrado</p>
+        </div>
+    </body>
+</html>
+

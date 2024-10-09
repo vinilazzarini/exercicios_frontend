@@ -1,0 +1,13 @@
+{
+  "carros": [
+    {
+      "marca": "Citroen",
+      "modelo": "C3",
+      "quilometragem": "100000",
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK-TU3ezfEkWe8e70ZU4VN3RdD6ZV-4DWGZw&s",
+      "preco": "55",
+      "ano": "2019",
+      "id": "b27a"
+    }
+  ]
+}

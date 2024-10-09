@@ -1,0 +1,55 @@
+main h1{
+    text-align: center;
+    margin: 22px 0;
+}
+
+
+
+#carrosContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.carro{
+    display: flex;
+    flex-direction: column;
+    margin: 4px;
+    gap: 5px;
+
+    background: #333;
+    padding: 16px;
+    border-radius: 4px;
+    color: #fff;
+}
+.carro h2{
+    text-align: center;
+}
+
+
+.carro div:last-child{
+    margin-top: 18px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.carro div:last-child button{
+    padding: 8px 32px;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    width: max-content;
+}
+
+.carro div:last-child button:first-child{
+    background-color: yellow;
+    margin-right: 12px;
+}
+
+.carro div:last-child button:last-child{
+    background-color: tomato;
+}

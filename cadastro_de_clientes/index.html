@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./app.js" defer type="module"></script>
+    <title>Cadastro de clientes</title>
+</head>
+<body>
+    <header><h1>Cadastro de clientes</h1></header>
+
+    <main>
+        <div id="principal">
+            <div id="novo_cliente">
+                <button id="botao_formulario">Cadastrar novo cliente</button>
+            </div>
+
+            <div id="formulario_cadastro">
+                <form name="cadastro">
+                    <div>
+                        <label for="nome">Nome: </label>
+                        <input type="text" name="nome" id="nome" required>
+                    </div>
+                    
+                    <div>
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" id="email" required placeholder="exemplo@email.com"> 
+                    </div>
+        
+                    <div>
+                        <label for="celular">Celular: </label>
+                        <input type="tel" name="celular" id="celular" required>
+                    </div>
+        
+                    <div>
+                        <label for="cidade">Cidade: </label>
+                        <input type="text" name="cidade" id="cidade" required>
+                    </div>
+        
+                    <button name="opcao">Salvar</button>
+                </form>
+            </div>
+
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Nome</td>
+                            <td>Email</td>
+                            <td>Celular</td>
+                            <td>Cidade</td>
+                            <td></td>
+                        </tr>
+                    </thead>
+                    <tbody id="lista_clientes"></tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
