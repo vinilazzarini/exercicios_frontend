@@ -73,7 +73,7 @@ table thead td{
 
 form{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, 1fr);
     gap: 20px;
 
     width: 40%;
@@ -92,6 +92,7 @@ form button{
     width: 50%;
     background-color: blue;
     padding: 8px 32px;
+
 }
 
 form button:hover{
@@ -101,15 +102,15 @@ form button:hover{
 td{
     text-align: center;
 }
-#editar_cliente{
+.editar_cliente{
     background-color: green;
 }
-#editar_cliente:hover{
+.editar_cliente:hover{
     background-color: rgb(15, 143, 15);
 }
-#excluir_cliente{
+.excluir_cliente{
     background-color: red;
 }
-#excluir_cliente:hover{
+.excluir_cliente:hover{
     background-color: rgb(248, 31, 31);
 }

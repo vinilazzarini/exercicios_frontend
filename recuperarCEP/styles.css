@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+#cadastro{
+    width: 50%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#cadastro label{
+    color: white;
+}
+
+#cadastro input{
+    padding: 2px 16px;
+    border: 1px solid white;
+    border-radius: 4px;
+
+    width: 100%;
+    margin-bottom: 10px;
+
+    text-align: center;
+}
+
+#endereco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
